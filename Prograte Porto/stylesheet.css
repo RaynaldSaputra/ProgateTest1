@@ -9,19 +9,24 @@ a{
     text-decoration: none;
 }
 .container{
-    /* max-width: 1170px; */
+    max-width: 1170px;
     width: 100%;
     padding: 0 15px;
     padding-bottom: 50px;
     /* padding-left: 250px; */
     margin:0 auto;
 }
+/* .topNav{
+    display: flex;
+    position: absolute;
+    left: 0px;
+} */
 header{
-    height: 65px;
+    height: 100%;
     width: 100%;
     background-color: rgba(34, 49, 52, 0.9);
-    /* top: 0; */
-    /* z-index: 10; */
+    top: 0;
+    z-index: 10;
 }
 .header-left h1{
     width: 125px;
@@ -32,7 +37,7 @@ header{
 }
 .header-left{
     float: left;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 }
 .header-nav{
     float: left;
@@ -43,7 +48,7 @@ header{
     line-height: 65px;
     padding: 0 25px;
     color: aliceblue;
-    display: block;
+    display: block;  
     float: left;
     transition: 0.5s;
 }
@@ -90,11 +95,12 @@ header{
     margin: 0 auto;
     width: 100%;
     display: flex;
+    gap: 20px;
 }
 .image img{
     height: 50%;
     width: 100%;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     opacity: 0.8s;
     flex: auto;
 }
@@ -111,17 +117,16 @@ image{
     font-size: 15px;
     margin: 0 auto;
     text-align: center;
-    padding-left: 55px;
+    /* padding-left: 35px; */
 } 
 .contact{
     margin-top: 300px;
     background-color: rgb(205, 202, 202);
     font-family: "Candara";
-    padding-top: 35px;
+    /* padding-top: 35px; */
     padding-bottom: 75px;
-    height: 350px;
+    height: 300x;
     width: 100%;
-    
 }
 .isi-contact{
     padding-top: 35px;
@@ -165,11 +170,11 @@ footer{
 }
 .footer-logo{
     float: left;
-    font-size: 32px;
+    /* font-size: 32px; */
     color: white;
     letter-spacing: 20px;
     font-family: "Copperplate";
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 .footer-list{
     margin: 0 auto;
@@ -181,3 +186,14 @@ footer{
     float: right;
     padding-right: 65px;
 }
+.menu-icon {
+    color: white;
+    /* float: right; */
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+    
+  }
+  .fa {
+    margin-right: 5px;
+  }
